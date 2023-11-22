@@ -1,38 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .home{
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148832094.jpg?w=740&t=st=1699338545~exp=1699339145~hmac=ea52654098cbbd04f617cb1cf4b2ce4214b0960b796d61d8e4374f81f7da12dd');
+    height: 100bh;
+} */

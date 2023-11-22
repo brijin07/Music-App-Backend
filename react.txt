@@ -1,0 +1,52 @@
+REACT -- js library(frond end development)
+to create single page application
+
+Basic commands---------------------------------------------------
+
+-to create project :npx create-react-app project name
+-to run project :npm start
+-to istall ract metirial : npm install @mui/material @emotion/react @emotion/styled
+-to build a project : npm run build
+-to install react bootstrap : npm install react-bootstrap bootstrap
+
+(bootsWtach : bootstrap themes)
+
+Basic concepts--------------------------------------------------------------------------------------------
+
+-reusable component based approch (page lle contents suprite page ll cheyyan pattum eg.nave , carousel in diff html page) 
+-JSX : java script XML
+-fast
+
+Frond end diffrence---------------------------------------------
+
+concepts               angular                         react                            vue(viewjs)
+-----------------------------------------------------------------------------------------------------------
+1.developer        framework---google             library--meta/google               framework---opensource
+
+2.language            typescript                      javascript                         javascript
+
+3.Dom                  real dom                      vertual dom                        vertual dom
+
+4.Data sharing      two data binding              one way data binding              two way data binding
+
+
+index.html --- loading page (use id)
+index.js --- use dom method to connect html page (get id)
+app.js --- it is a selector (select a page (contents))
+
+
+<React.StrictMode> - access all react features
+<App />------ self clossing tag--- it is a selector (select a page (contents))
+</React.StrictMode>
+
+REMOVE contents--------------------------------------------------------------------
+
+public only want --- index.js
+index.css -- clear all 
+index.js -- delete statement
+app.css -- clear all
+app.js --- dlt div --- crate new div
+
+components------------------------------------------------------------
+
+
