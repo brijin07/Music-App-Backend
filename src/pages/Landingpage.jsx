@@ -31,11 +31,11 @@ function Landingpage() {
             and also arrange them in diffrent categories by drag and drop. it is free. try it.
             now!!!!!
           </p>
-          <button onClick={handleNavigate} className='btn btn-dark'>Click here to know more !!!</button>
+          <button onClick={handleNavigate} className='btn btn-success'>Click here to know more !!!</button>
         </Col>
 
         <Col lg={4}>
-          <img style={{height:"350px",width:"380px",marginLeft:"25px"}} src="./images/—Pngtree—music_697558.png" alt="" />
+          <img style={{height:"350px",width:"380px",marginLeft:"25px"}} src="https://www.oasisacademytemple.org/uploaded/Temple/Page_Photographs/music-colour-splash.jpg" alt="" />
         </Col>
 
         <Col></Col>
