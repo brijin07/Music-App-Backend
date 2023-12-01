@@ -3,7 +3,7 @@ import { Upload } from 'react-feather'
 
 function Footer() {
   return (
-    <div >
+    <div  className=''>
 
     <p className='text-center'>All Rights Reserved &copy; <Upload/> <b>Video Upload</b> &reg; 2023</p>
 

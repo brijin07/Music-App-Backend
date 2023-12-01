@@ -128,8 +128,8 @@ function Category() {
   return (
 
     <> 
-    <div className='d-grid'>
-    <div  onClick={handleShow} className='btn btn-secondary m-2'>
+    <div className='d-grid mt-5'>
+    <div  onClick={handleShow} className='btn btn-success m-2'>
      Add catogory
      </div>
 

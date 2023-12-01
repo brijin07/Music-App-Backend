@@ -95,7 +95,7 @@ function Videocard({card,handleDeleteStatus,insideCategory}) {
             </Modal.Header>
             <Modal.Body>
 
-            <iframe width="590" style={{height:"300px",width:"463px"}} src={`${card.url}?autoplay=1`} title="One Punch Man - SuperMan [AMV/EDIT]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="590" style={{height:"300px",width:"330px"}} src={`${card.url}?autoplay=1`} title="One Punch Man - SuperMan [AMV/EDIT]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             </Modal.Body>
             </Modal>       

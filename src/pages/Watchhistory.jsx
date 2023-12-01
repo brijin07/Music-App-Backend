@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { getHistory } from '../services/allapi'
 import { Link } from 'react-router-dom'
-import { ArrowDownLeft, ArrowLeft } from 'react-feather'
+import {  ArrowLeft } from 'react-feather'
+import Table from 'react-bootstrap/Table';
+
 
 
 function Watchhistory() {
@@ -25,39 +27,41 @@ function Watchhistory() {
   }, [])
 
   return (
-    <>
+    <div className='container-fluid'>
 
   <div className='d-flex justify-content-center align-items-center'>
-      <h1>Watch History</h1>
+      <h1 className='wh'>Watch History</h1>
       <Link to='/home' style={{textDecoration:"none",marginLeft:"45px",fontSize:"20px",fontFamily:"monospace"}} >
         <span><ArrowLeft/></span> Back</Link>
   </div>
 
-    <table className='table-shadow border rounded m-3 '>
+   
+
+    <Table striped bordered hover >
       <thead>
         <tr>
-          <th>No</th>
+        <th>No</th>
           <th>Name</th>
-          <th>Url</th>
+          {/* <th>Url</th> */}
           <th>Date</th>
         </tr>
       </thead>
-
       <tbody>
-          {
+      {
             history?.map((item,index)=>(
               <tr>
               <td>{index+1}</td>
               <td>{item.cardName}</td>
-              <td>{item.url}</td>
+              {/* <td>{item.url}</td> */}
               <td>{item.date}</td>
               </tr>
             ))
           }
+      
       </tbody>
-    </table>
+    </Table>
     
-    </>
+    </div>
   )
 }
 

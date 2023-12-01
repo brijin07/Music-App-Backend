@@ -18,33 +18,27 @@ function Landingpage() {
   }
 
   return (
-    <div>
+<div className='container-fluid'>
 
-      <Row className='align-items-center'>
+<Row className='align-items-center'>
 
-        <Col></Col>
-
-        <Col lg={6}>
-          <h1>Welcome to Video.com</h1>
-          <p style={{textAlign:"justify"}}>Where user can use their favorite videos user can upload any youtube videos by coppy
-            and paste their url. video.com will allow to add and remove their uploaded videos
-            and also arrange them in diffrent categories by drag and drop. it is free. try it.
-            now!!!!!
-          </p>
-          <button onClick={handleNavigate} className='btn btn-success'>Click here to know more !!!</button>
-        </Col>
-
-        <Col lg={4}>
-          <img style={{height:"350px",width:"380px",marginLeft:"25px"}} src="https://www.oasisacademytemple.org/uploaded/Temple/Page_Photographs/music-colour-splash.jpg" alt="" />
-        </Col>
-
-        <Col></Col>
-
-      </Row>
-
-
-
+  <Col xs={12} lg={4} className='mb-4 mb-lg-0'>
+    <div className=''>
+      <img  className='img1' style={{ width: "100%", marginBottom: "25px" }} src="https://www.oasisacademytemple.org/uploaded/Temple/Page_Photographs/music-colour-splash.jpg" alt="" />
     </div>
+  </Col>
+
+  <Col xs={12} lg={6} className='hii'>
+    <h1 className='kk mb-3'>Welcome to Video.upload</h1>
+    <p style={{ textAlign: "justify" }} className='mb-3'>Where users can use their favorite videos. Users can upload any YouTube videos by copying and pasting their URL. Video.com allows adding and removing uploaded videos and also arranging them in different categories by drag and drop. It is free. Try it now!!!!!
+    </p>
+    <button onClick={handleNavigate} className='btn btn-success'>Click here to know more !!!</button>
+  </Col>
+
+</Row>
+
+</div>
+
   )
 }
 

@@ -1,4 +1,21 @@
-/* .home{
-    background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148832094.jpg?w=740&t=st=1699338545~exp=1699339145~hmac=ea52654098cbbd04f617cb1cf4b2ce4214b0960b796d61d8e4374f81f7da12dd');
-    height: 100bh;
-} */
+
+@media (max-width: 600px) {
+
+    .img1{
+        height: 200px;
+    }
+   
+    .kk{
+        font-size: 20px;
+        color: green;
+    }
+    .mm{
+        font-size: 30px;
+    }
+    .wh{
+        font-size: 15px;
+    }
+
+    
+}
+    

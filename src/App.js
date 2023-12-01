@@ -11,28 +11,32 @@ function App() {
 
   return (
  
-  <div className='home'>
+ <>
+
+    <div className='home '>
     <Header />
-    
-      <div className="container m-5">
 
-        <Routes>
+        <div className=" m-5">
 
-          <Route path='/' element={<Landingpage/>}/>
-
-          <Route path='/home' element={<Homepage/>} />
-
-          <Route path='/watchhistory' element={<Watchhistory/>} />
-
-          
-        </Routes>
-
-        {/* <Landingpage /> */}
-
-      </div>
-      
-    <Footer />
-  </div>
+  
+          <Routes>
+  
+            <Route path='/' element={<Landingpage/>}/>
+  
+            <Route path='/home' element={<Homepage/>} />
+  
+            <Route path='/watchhistory' element={<Watchhistory/>} />
+  
+            
+          </Routes>
+  
+          {/* <Landingpage /> */}
+  
+        </div>
+        
+      <Footer />
+    </div>
+ </>
 
   );
 }

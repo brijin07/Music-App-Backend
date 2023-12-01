@@ -23,9 +23,9 @@ function Homepage() {
    <>
     <div>
       
-      <h1 style={{fontSize:"40px",fontFamily:"serif"}} className='text-dark ms-5 mb-5 '>All Video Cards</h1>
+      <h1 style={{fontFamily:"serif"}} className='mm text-dark ms-5 mb-5 '>All Video Cards</h1>
 
-      <Link to={'/watchhistory'} className='me-auto d-flex justify-content-end mb-5' style={{textDecoration:"none",fontSize:"20px",color:"blue"}}>Watch history</Link>
+      <Link to={'/watchhistory'} className='me-auto d-flex justify-content-end mb-5' style={{textDecoration:"none",fontSize:"15px",color:"red"}}>Watch history</Link>
 
       <Row>
 
